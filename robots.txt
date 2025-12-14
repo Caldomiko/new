@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://real-casino.site/sitemap.xml
+Sitemap: https://www.real-casino.site/sitemap.xml
