@@ -1,0 +1,295 @@
+/* Light theme overrides */
+body.light-theme {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+body.light-theme a {
+    color: #000000 !important;
+}
+
+body.light-theme header,
+body.light-theme #header,
+body.light-theme .header,
+body.light-theme .headernav,
+body.light-theme .content-header,
+body.light-theme #footer,
+body.light-theme .footer__menu,
+body.light-theme .footer__logo {
+    background: #ffffff !important;
+    color: #000 !important;
+    border-color: #e9e9e9 !important;
+}
+
+body.light-theme .wrap,
+body.light-theme .main,
+body.light-theme .content,
+body.light-theme .box,
+body.light-theme .table-header,
+body.light-theme .table-row,
+body.light-theme .content-table-header,
+body.light-theme .item {
+    background: #ffffff !important;
+    color: #000 !important;
+    border: 1px solid #eee !important;
+}
+
+body.light-theme .muted,
+body.light-theme .text-muted,
+body.light-theme .desc,
+body.light-theme .item__desc {
+    color: #000 !important;
+}
+
+body.light-theme .btn-light {
+    border-color: #178b42 !important;
+    color: #178b42 !important;
+    background: transparent !important;
+}
+
+body.light-theme .btn-orange {
+    background: #FF8E26 !important;
+    color: #fff !important;
+    border-color: #FF8E26 !important;
+}
+
+body.light-theme .btn-orange:hover,
+body.light-theme .btn-light:hover {
+    opacity: 0.95;
+}
+
+body.light-theme .item__logo {
+    border-radius: 4px;
+    box-shadow: none !important;
+    border: 1px solid #eee !important;
+    background: transparent !important;
+}
+
+body.light-theme svg,
+body.light-theme img {
+    filter: none !important;
+}
+
+/* High specificity reset for dark backgrounds */
+body.light-theme [style*="#1b1e22"] {
+    background: transparent !important;
+}
+
+/* Muted panels and overlays */
+body.light-theme .overlay,
+body.light-theme .bg-dark,
+body.light-theme .bg-black {
+    background: transparent !important;
+    color: #000 !important;
+}
+
+/* Force inputs and form fields to light theme */
+body.light-theme input,
+body.light-theme textarea,
+body.light-theme select {
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #e6e6e6 !important;
+}
+
+/* Fine tuning for footer links */
+body.light-theme .footer__menu a,
+body.light-theme .footer__rules a,
+body.light-theme .footer__privacy a {
+    color: #000 !important;
+}
+
+/* Force all text (including buttons, headings, and inline styles) to black */
+body.light-theme * {
+    color: #000000 !important;
+}
+
+/* Force tables to use light background in light theme */
+body.light-theme table,
+body.light-theme table tr,
+body.light-theme table td,
+body.light-theme table th {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border-color: #e9e9e9 !important;
+}
+
+body.light-theme table tbody tr:nth-child(odd),
+body.light-theme table tbody tr:nth-child(even) {
+    background: #ffffff !important;
+}
+
+body.light-theme table tbody tr:nth-child(even) {
+    background: #fafafa !important;
+}
+
+/* Accordion / FAQ: remove dark backgrounds and green shadows */
+body.light-theme .accordion__items,
+body.light-theme .faq .row,
+body.light-theme .accordion__item,
+body.light-theme .accordion__content,
+body.light-theme .accordion__action {
+    background-color: transparent !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-color: #e9e9e9 !important;
+}
+
+/* Header shadow */
+body.light-theme #header:before {
+    box-shadow: none !important;
+}
+
+/* Footer side bars (left/right) — make white */
+body.light-theme #footer:before,
+body.light-theme .copyright:before {
+    background: #ffffff !important;
+    opacity: 1 !important;
+    box-shadow: none !important;
+}
+
+/* Footer menu border color */
+body.light-theme .footer__menu > li > a {
+    border-bottom: 1px solid #eee !important;
+    color: #333 !important;
+}
+
+body.light-theme .accordion__items {
+    margin-bottom: 25px;
+}
+
+body.light-theme .accordion__item {
+    border-radius: 2px !important;
+    padding: 0 !important;
+}
+
+body.light-theme .accordion__items li {
+    border-bottom: 1px solid #eee !important;
+}
+
+/* Mobile & desktop navigation submenu backgrounds */
+body.light-theme .sitenavigation li ul a,
+body.light-theme .sitenavigation li ul,
+body.light-theme .navbar .sitenavigation.is-tapped > ul a,
+body.light-theme .navbar .sitenavigation.is-tapped > ul li,
+body.light-theme .navbar .sitenavigation.is-tapped > ul ul a {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+}
+
+/* Hover state */
+body.light-theme .sitenavigation li ul a:hover,
+body.light-theme .navbar .sitenavigation.is-tapped > ul a:hover,
+body.light-theme .navbar .sitenavigation.is-tapped > ul ul a:hover{
+    background-color: #efefef !important;
+    color: #000 !important;
+}
+
+/* Sort menu — dropdown and button */
+body.light-theme .sort-wrapper,
+body.light-theme .dropdown,
+body.light-theme .dropbtn,
+body.light-theme .dropdown-content {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+}
+
+body.light-theme .dropdown-content a {
+    color: #000 !important;
+}
+
+body.light-theme .dropdown-content a:hover {
+    background-color: #efefef !important;
+    color: #000 !important;
+}
+
+/* item tables and green row backgrounds */
+body.light-theme .item__table,
+body.light-theme .item__table:hover,
+body.light-theme .casino-rows .row-items,
+body.light-theme .row-items,
+body.light-theme .pluses .row-title,
+body.light-theme .minuses .row-items,
+body.light-theme .casino-rows .row-title {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    box-shadow: none !important;
+    color: #000 !important;
+    border: 1px solid #eee !important;
+}
+
+body.light-theme .pluses .row-title,
+body.light-theme .casino-rows .row-title{
+    background-color: #ffffff !important;
+    color: #000 !important;
+}
+
+body.light-theme .accordion__title.h4,
+body.light-theme .row h2,
+body.light-theme .accordion__action,
+body.light-theme .accordion__content p {
+    color: #000 !important;
+}
+
+/* Content block gradient override */
+body.light-theme .content-block,
+body.light-theme .content-block .box,
+body.light-theme .content-block [class*="bg-"],
+body.light-theme .content-block[data-bg],
+body.light-theme [class*="bg-"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 1px solid #eee !important;
+    color: #000 !important;
+}
+
+/* Keep the orange circle icon and white plus intact */
+body.light-theme .accordion__action-icon {
+    background: #f2742c !important;
+    color: #fff !important;
+    border: 2px solid transparent !important;
+}
+
+/* Ensure call-to-action buttons keep their contrast if needed */
+body.light-theme .btn-orange {
+    color: #fff !important;
+}
+
+/* Override inline dark backgrounds as well */
+body.light-theme [style*="#1b1e22"] {
+    background: transparent !important;
+}
+
+/* Reviews: content-table (bonus tables) are dark by default — force light style */
+body.light-theme .content-table,
+body.light-theme .content-table-header,
+body.light-theme .content-table-header div,
+body.light-theme .content-table-row,
+body.light-theme .content-table-row div {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-color: #e9e9e9 !important;
+    box-shadow: none !important;
+}
+
+body.light-theme .content-table-header {
+    border: 1px solid #e9e9e9 !important;
+}
+
+body.light-theme .content-table-header div {
+    border-right: 1px solid #e9e9e9 !important;
+    padding: 10px !important;
+}
+
+body.light-theme .content-table-row {
+    border-bottom: 1px solid #e9e9e9 !important;
+    border-left: 1px solid #e9e9e9 !important;
+    border-right: 1px solid #e9e9e9 !important;
+}
+
